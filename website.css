@@ -1,0 +1,134 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.center {
+	text-align: center;
+}
+
+.vert-center{
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.nav-wrapper {
+	text-align: center;
+}
+
+.nav-wrapper nav {
+	display: inline;
+}
+
+.nav-wrapper nav li {
+	color: #000000;
+	font-size: 30px;
+	display: inline;
+	list-style: none;
+	margin: 1em;
+}
+
+.nav-wrapper nav li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.nav-wrapper nav li a:visited {
+	color: #000000;
+}
+
+.error {
+	color: red;
+}
+
+checkbox {
+	background: #000000;
+}
+
+/*form {
+	background: #E8E8E8;
+}*/
+
+/*#recover-password{
+	background: #E8E8E8;	
+}*/
+
+input[type=text], input[type=password], input[type=submit] {
+	text-align: center;
+	border: solid 1px #000000;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 1em;
+	padding-left: 1em;
+	background: #FFFFFF;
+	height: 2.25em;
+	width: 20em;
+}
+
+input[type=text], input[type=password], textarea {
+	transition: all 0.3s ease-in-out;
+	font-family: inherit;
+}
+
+textarea {
+	font-size: 20px;
+	resize: none;
+}
+
+input[type=submit] {
+	cursor: pointer;
+	box-shadow: inset 0px 0px 31px 0.1px rgba(0,0,0,0.75);
+	background: #800028;
+	border-radius: 0.25em;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	width: 10em;
+}
+
+input[type=submit]:disabled {
+	background: gray;
+}
+
+input[type=submit]:active {
+	box-shadow: inset 0px 0px 31px 8px rgba(0,0,0,0.75);
+}
+
+input[type=submit]:hover {
+	position: relative;
+	bottom: -0.15em;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+	outline: none;
+}
+
+textarea:focus {
+	border: solid 1px #000000;
+}
+
+#username-errors ul, #email-errors ul, #password-errors ul, #confirm-password-errors ul, #login-errors ul {
+	text-align: left;
+	margin-left: 43.75em;
+	list-style: none;
+}
+
+#username-errors, #email-errors, #password-errors, #confirm-password-errors, #login-errors {
+	height: 3em;
+}
+
+#recover-password {
+	position: relative;
+	top: 0.75em;
+	text-decoration: none;
+}
+
+#recover-password:hover {
+	text-decoration: underline;
+}
+
+#recover-password:visited {
+	color: #0000EE;
+}
